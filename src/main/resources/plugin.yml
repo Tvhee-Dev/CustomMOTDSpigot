@@ -1,0 +1,23 @@
+name: ${project.name}
+main: me.tvhee.custommotd.spigot.CustomMOTDPlugin
+version: ${project.version}
+author: tvhee
+api-version: 1.13
+commands:
+  cm:
+    description: Plugin command
+    usage: /<command>
+  cm help:
+    description: Help menu
+    usage: /<command>
+  cm update:
+    description: Check for updates
+    usage: /<command>
+  cm reload:
+    description: Reload command
+    usage: /<command>
+permissions:
+  custommotd.reload:
+    default: op
+  custommotd.update:
+    default: op

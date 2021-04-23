@@ -1,0 +1,21 @@
+plugin:
+  prefix: '&a[CustomMOTD] &r'
+  update-check: true
+  motd:
+    enabled: true
+    line1: '&aThe coolest server in the universe!'
+    line2: '&aPlugin made by tvhee!'
+    center: false
+  favicon:
+    enabled: true
+    ##You can set here the name of the file
+    file: default.png
+  player-format:
+    enabled: true
+    ##If you want an static playercount you could remove the placeholders
+    text: '&6[%online-players%/%max-players%]'
+  hover:
+    enabled: true
+    text:
+      - '&6Welcome on this server!'
+      - '&aPlugin made by tvhee'
